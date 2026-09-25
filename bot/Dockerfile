@@ -5,7 +5,7 @@ WORKDIR /app
 RUN corepack enable
 
 COPY bot/package.json ./
-RUN pnpm install --prod --no-frozen-lockfile --ignore-scripts
+RUN pnpm install --prod --no-frozen-lockfile --ignore-scripts --no-optional
 
 COPY bot/index.cjs ./
 
