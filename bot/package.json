@@ -14,5 +14,10 @@
   "dependencies": {
     "bedrock-protocol": "3.59.0",
     "jsp-raknet": "https://github.com/aternosorg/JS-RakNet/tarball/new"
+  },
+  "pnpm": {
+    "overrides": {
+      "raknet-native": "false"
+    }
   }
 }
