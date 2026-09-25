@@ -16,7 +16,7 @@
   },
   "pnpm": {
     "overrides": {
-      "raknet-native": "npm:jsp-raknet@2.1.3"
+      "raknet-native": "github:aternosorg/JS-RakNet#new"
     }
   }
 }
