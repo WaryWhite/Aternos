@@ -1,0 +1,22 @@
+{
+  "name": "aternos-bedrock-afk-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline Bedrock AFK bot for the Aternos server",
+  "main": "index.cjs",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "start": "node index.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "bedrock-protocol": "3.59.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "raknet-native": "npm:jsp-raknet@2.1.3"
+    }
+  }
+}
