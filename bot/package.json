@@ -12,11 +12,7 @@
     "node": ">=24"
   },
   "dependencies": {
-    "bedrock-protocol": "3.59.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "raknet-native": "github:aternosorg/JS-RakNet#new"
-    }
+    "bedrock-protocol": "3.59.0",
+    "jsp-raknet": "https://github.com/aternosorg/JS-RakNet/tarball/new"
   }
 }
